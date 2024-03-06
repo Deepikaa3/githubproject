@@ -3,6 +3,8 @@ let b = prompt('Enter the second variable: ');
 let temp;
 
 console.log(`The value of a before swapping: ${a}`);
+console.log(`The value of b before swapping: ${b}`);
+
 temp = a;
 a = b;
 b = temp;
